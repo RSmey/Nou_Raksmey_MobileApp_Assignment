@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Menu"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_last_pro"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="New Product" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Location Map" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Information" />
+    </group>
+
+    <item android:title="Personal">
+        <menu>
+            <item
+                android:id="@+id/nav_saved"
+                android:icon="@drawable/ic_save_black_24dp"
+                android:title="Saved" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

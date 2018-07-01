@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".fregments.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/product_list"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Products Brand"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/adidaslayot"
+        android:layout_below="@+id/product_list"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/adidas_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adidas"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_adidas"
+            android:layout_toRightOf="@+id/adidas_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adidas"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_adidas"
+            android:layout_toRightOf="@id/adidas_img"
+            android:layout_below="@+id/txt_adidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Adidas Product"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/nikelayot"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/adidaslayot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/nike_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nike"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_nike"
+            android:layout_toRightOf="@+id/nike_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nike"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_nike"
+            android:layout_toRightOf="@id/nike_img"
+            android:layout_below="@+id/txt_nike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Nike Product"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/converselayot"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/nikelayot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/converse_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/converse"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_converse"
+            android:layout_toRightOf="@+id/converse_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Converse"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_converse"
+            android:layout_toRightOf="@id/converse_img"
+            android:layout_below="@+id/txt_converse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Converse Product"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pumalayot"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/converselayot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/puma_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/puma"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_puma"
+            android:layout_toRightOf="@+id/puma_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puma"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_puma"
+            android:layout_toRightOf="@id/puma_img"
+            android:layout_below="@+id/txt_puma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Puma Product"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/umbrolayot"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/pumalayot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/umbro_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/umbro"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_umbro"
+            android:layout_toRightOf="@+id/umbro_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umbro"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_umbro"
+            android:layout_toRightOf="@id/umbro_img"
+            android:layout_below="@+id/txt_umbro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Umbro Product"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/underlayot"
+        android:layout_margin="2dp"
+        android:layout_below="@+id/umbrolayot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        >
+
+        <ImageView
+            android:id="@+id/under_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/underarmour"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_under"
+            android:layout_toRightOf="@+id/under_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Under Armour"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_desc_under"
+            android:layout_toRightOf="@id/under_img"
+            android:layout_below="@+id/txt_under"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Under Armour Product"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
